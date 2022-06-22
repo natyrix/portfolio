@@ -1,5 +1,6 @@
 .home {
   display: flex;
+  flex-wrap: wrap;
   height: 100vh;
 }
 .home-right {
@@ -81,7 +82,7 @@
   top: 0;
   right: 0;
 }
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 1140px) {
   .home {
     flex-direction: column;
   }
@@ -93,6 +94,9 @@
     height: 100%;
   }
   .home-desc {
+    display: none;
+  }
+  .home-left {
     display: none;
   }
 }

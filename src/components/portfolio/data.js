@@ -99,7 +99,7 @@ export const data = [
         title: "Ethio Hotels",
         desc: "Developed a site like 'hotel trivago' for Ethiopia because while using Hotel Trivago in Ethiopia it only\
         includes hotels that have a higher standard.\
-        Developed a site that can include small standard hotels. It allows hotels to manage their rooms and also\
+        Developed a site that can include small standard hotels. It \
         provides a fully functional front desk management for hotels that don't have front desk management\
         system, and also for the client side clients/end users can search and filter hotels with room price,\
         facilities etc.",

@@ -29,7 +29,7 @@ export default function Portfolio() {
                 Desktop Application
             </div>
         </div>
-      <a href="https://drive.google.com/file/d/1zyQU_JG6GHmQAjZPlnLodqgRsV_pJta7/view?usp=sharing" className='navbody-resume-link'>Resume?</a>
+      {/* <a href="https://drive.google.com/file/d/1zyQU_JG6GHmQAjZPlnLodqgRsV_pJta7/view?usp=sharing" className='navbody-resume-link'>Resume?</a> */}
 
         <div className='portfolio-body'>
             {
