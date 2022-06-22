@@ -5,6 +5,7 @@ import {ThemeContext} from "./context";
 import NavBar from './components/navbar/NavBar';
 import Home from './components/home/Home';
 import Portfolio from './components/portfolio/Portfolio';
+import Testimonials from './components/testimonials/Testimonials';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <NavBar/>
       <Home/>
       <Portfolio/>
+      <Testimonials/>
     </div>
   );
 }

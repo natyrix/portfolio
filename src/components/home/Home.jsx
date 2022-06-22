@@ -6,7 +6,7 @@ export default function Home() {
     <div className='home'>
         <div className="home-left">
             <div className="">
-
+              <img src="https://cdn.dribbble.com/users/603800/screenshots/4569474/dribbble-code.gif" alt="giff"/>
             </div>
       </div>
       <div className="home-right">

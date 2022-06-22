@@ -1,0 +1,13 @@
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonials-body-item {
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 35px;
+  border: 2px solid #559256;
+  width: 60vw;
+}

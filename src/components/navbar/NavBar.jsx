@@ -16,6 +16,7 @@ export default function NavBar() {
         <NavBody/>
         {/* <div className='navbody'>NavBody</div> */}
         <div className='navbar'>
+
             <img src={Sun} className="navbar-icon"/>
             <img src={Moon} className="navbar-icon"/>
             <div className="navbar-button" style={{ left:theme.state.darkMode?"0":"25px" }} onClick={handleClick}></div>

@@ -1,9 +1,10 @@
 .portfolio {
   display: flex;
-  height: 100vh;
+  /* height: 100vh; */
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
+  /* overflow-y: scroll; */
 }
 .portfolio-title {
   display: flex;
@@ -24,4 +25,51 @@
 .active {
   background-color: #559256;
   font-weight: 900;
+  transition: all 500ms ease;
+}
+.portfolio-body {
+  display: flex;
+  padding: 0.5rem;
+  flex-wrap: wrap;
+  /* justify-content: center;
+  align-items: center; */
+  /* display: inline-grid; */
+  /* grid-column-start: 1;
+  grid-column-end: 3; */
+}
+.portfolio-body-item {
+  max-width: 390px;
+  height: 60vh;
+  border-radius: 35px;
+  border: 2px solid #559256;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+.portfolio-body-item hr {
+  width: 100%;
+}
+.portfolio-body-item-list {
+  padding: 0.4rem;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: start;
+  align-items: flex-start; */
+}
+.portfolio-body-item-list span {
+  padding: 0.6rem;
+  margin: 0.4rem;
+  border-radius: 35px;
+  border: 2px solid #559256;
+}
+
+.portfolio-body-item-list a {
+  padding: 0.6rem;
+  margin: 0.4rem;
+  border-radius: 35px;
+  border: 2px solid #559256;
+  text-decoration: none;
+  color: #559256;
 }
